@@ -1,10 +1,12 @@
 [gd_scene format=3 uid="uid://dwgxt8rnnrgyf"]
 
+[ext_resource type="Script" uid="uid://cogqqxbbwt8j7" path="res://scripts/main.gd" id="1_jyhfs"]
 [ext_resource type="Texture2D" uid="uid://b854vk06tyalm" path="res://assets/world_map_with_countries.jpg" id="1_o5qli"]
 [ext_resource type="Script" uid="uid://xtsrpk63kh15" path="res://scripts/camera.gd" id="2_0wfyh"]
 [ext_resource type="Texture2D" uid="uid://3up415cuahha" path="res://assets/city.png" id="3_sugp2"]
 
 [node name="Node2D" type="Node2D" unique_id=2066437592]
+script = ExtResource("1_jyhfs")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=605448728]
 position = Vector2(961.50006, 537)
