@@ -14,10 +14,6 @@ func _ready() -> void:
 	
 	currentSeasonInt = Enums.Season.Summer
 	seasonText.text = Enums.Season.keys()[currentSeasonInt]
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
 	
 # reads the json file and creates a list of weather Data per city
 func readWeatherData():

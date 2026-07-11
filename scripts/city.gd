@@ -2,11 +2,13 @@ extends Sprite2D
 class_name City
 
 var _weatherData: Array[WeatherObject]
-@onready var panel: Sprite2D = get_node("Panel")
+@onready var panel: Sprite2D = $Panel
+@onready var cityNameLbl: Label = $CityName
 var seasonText: Label
 
 func _ready() -> void:
 	panel.visible = false
+	cityNameLbl.text = name
 
 # sets position of city
 func setPosition(pos: Vector2):
@@ -42,5 +44,9 @@ func _on_area_2d_input_event(viewport: Node, event: InputEvent, shape_idx: int) 
 				$Panel/feel_temp.text = "Real feel: " + str(data.feel_temp) + " °C"
 				$Panel/wind.text = "Wind: " + str(data.wind_degree) + str(data.wind_direction)+ " " + str(data.wind_speed) + "km/h"
 				$Panel/humidity.text = "Humidity: " + str(data.humidity) + "%"
-				
+		
+		#checks if the y position is out of bound
+		if panel.global_position.y <= 30:
+			panel.global_position.y = 150
+			
 		panel.visible = true	

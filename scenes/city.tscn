@@ -16,43 +16,68 @@ script = ExtResource("2_rqxma")
 shape = SubResource("CircleShape2D_0didm")
 
 [node name="Panel" type="Sprite2D" parent="." unique_id=1535167302]
-position = Vector2(0, -43)
-scale = Vector2(1.1875, 1)
+texture_filter = 1
+position = Vector2(0, -61)
+scale = Vector2(1.4, 1.4)
 texture = ExtResource("3_rqxma")
 
 [node name="temp" type="Label" parent="Panel" unique_id=1268694053]
-offset_left = -26.947369
-offset_top = -25.0
-offset_right = 26.947369
-offset_bottom = -3.0
-theme_override_font_sizes/font_size = 15
+texture_filter = 1
+offset_left = -26.0
+offset_top = -28.0
+offset_right = 993.0
+offset_bottom = 654.0
+scale = Vector2(0.05, 0.05)
+theme_override_font_sizes/font_size = 400
 text = "10 C"
 horizontal_alignment = 1
 
 [node name="feel_temp" type="Label" parent="Panel" unique_id=1899348113]
-offset_left = -14.315789
-offset_top = -3.0
-offset_right = 24.421055
-offset_bottom = 5.0
-theme_override_font_sizes/font_size = 5
+texture_filter = 1
+offset_left = -20.714287
+offset_top = -4.285715
+offset_right = 775.2857
+offset_bottom = 173.71428
+scale = Vector2(0.05, 0.05)
+theme_override_font_sizes/font_size = 130
 text = "Real feel: 9 C"
+horizontal_alignment = 1
 
 [node name="wind" type="Label" parent="Panel" unique_id=1403264827]
-offset_left = -27.052631
-offset_top = 10.0
-offset_right = 26.947369
-offset_bottom = 18.0
-theme_override_font_sizes/font_size = 5
+texture_filter = 1
+offset_left = -27.857143
+offset_top = 11.428572
+offset_right = 1092.1428
+offset_bottom = 155.42857
+scale = Vector2(0.05, 0.05)
+theme_override_font_sizes/font_size = 103
 text = "Wind: 120NW 19 km/h"
 horizontal_alignment = 1
 
 [node name="humidity" type="Label" parent="Panel" unique_id=1463871278]
-offset_left = -26.947369
-offset_top = 20.0
-offset_right = 26.947369
-offset_bottom = 28.0
-theme_override_font_sizes/font_size = 5
+texture_filter = 1
+offset_left = -14.285718
+offset_top = 20.000002
+offset_right = 659.7143
+offset_bottom = 164.0
+scale = Vector2(0.05, 0.05)
+theme_override_font_sizes/font_size = 105
 text = "Humidity: 5%"
+horizontal_alignment = 1
+
+[node name="CityName" type="Label" parent="." unique_id=1928496567]
+show_behind_parent = true
+light_mask = 8
+visibility_layer = 8
+offset_left = -19.0
+offset_top = 4.0
+offset_right = 723.0
+offset_bottom = 597.0
+scale = Vector2(0.05, 0.05)
+theme_override_colors/font_color = Color(0.9538571, 0, 0.0550346, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 435
+text = "city"
 horizontal_alignment = 1
 
 [connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]
