@@ -1,0 +1,60 @@
+[gd_scene format=3 uid="uid://b75g4nd8eppa3"]
+
+[ext_resource type="Texture2D" uid="uid://3up415cuahha" path="res://assets/city.png" id="1_58ubr"]
+[ext_resource type="Script" uid="uid://f5tr4ifn2oy6" path="res://scripts/city.gd" id="2_rqxma"]
+[ext_resource type="Texture2D" uid="uid://bmb0bnnlmeraa" path="res://assets/cityPanel.png" id="3_rqxma"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_0didm"]
+
+[node name="City" type="Sprite2D" unique_id=1523256809]
+texture = ExtResource("1_58ubr")
+script = ExtResource("2_rqxma")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1315697194]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=2094021925]
+shape = SubResource("CircleShape2D_0didm")
+
+[node name="Panel" type="Sprite2D" parent="." unique_id=1535167302]
+position = Vector2(0, -43)
+scale = Vector2(1.1875, 1)
+texture = ExtResource("3_rqxma")
+
+[node name="temp" type="Label" parent="Panel" unique_id=1268694053]
+offset_left = -26.947369
+offset_top = -25.0
+offset_right = 26.947369
+offset_bottom = -3.0
+theme_override_font_sizes/font_size = 15
+text = "10 C"
+horizontal_alignment = 1
+
+[node name="feel_temp" type="Label" parent="Panel" unique_id=1899348113]
+offset_left = -14.315789
+offset_top = -3.0
+offset_right = 24.421055
+offset_bottom = 5.0
+theme_override_font_sizes/font_size = 5
+text = "Real feel: 9 C"
+
+[node name="wind" type="Label" parent="Panel" unique_id=1403264827]
+offset_left = -27.052631
+offset_top = 10.0
+offset_right = 26.947369
+offset_bottom = 18.0
+theme_override_font_sizes/font_size = 5
+text = "Wind: 120NW 19 km/h"
+horizontal_alignment = 1
+
+[node name="humidity" type="Label" parent="Panel" unique_id=1463871278]
+offset_left = -26.947369
+offset_top = 20.0
+offset_right = 26.947369
+offset_bottom = 28.0
+theme_override_font_sizes/font_size = 5
+text = "Humidity: 5%"
+horizontal_alignment = 1
+
+[connection signal="input_event" from="Area2D" to="." method="_on_area_2d_input_event"]
+[connection signal="mouse_entered" from="Area2D" to="." method="_on_area_2d_mouse_entered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="_on_area_2d_mouse_exited"]

@@ -1,0 +1,335 @@
+{
+	"Amsterdam": [ {
+			"temp": 9,
+			"feel_temp": 5,
+			"wind_speed": 48,
+			"wind_direction": "SSW",
+			"wind_degree": 300,
+			"humidity": 81,
+			"season": "Winter"
+		},
+		{
+			"temp": 14,
+			"feel_temp": 12,
+			"wind_speed": 23,
+			"wind_direction": "ENE",
+			"wind_degree": 160,
+			"humidity": 57,
+			"season": "Spring"
+		},
+		{
+			"temp": 36,
+			"feel_temp": 35,
+			"wind_speed": 15,
+			"wind_direction": "S",
+			"wind_degree": 270,
+			"humidity": 32,
+			"season": "Summer"
+		},
+		{
+			"temp": 17,
+			"feel_temp": 16,
+			"wind_speed": 13,
+			"wind_direction": "SE",
+			"wind_degree": 220,
+			"humidity": 52,
+			"season": "Autumn"
+		}
+	],
+	"Den Haag": [ {
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Winter"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Spring"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Summer"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Autumn"
+		}
+	],
+	"Rotterdam": [ {
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Winter"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Spring"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Summer"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Autumn"
+		}
+	],
+	"Groningen": [ {
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Winter"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Spring"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Summer"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Autumn"
+		}
+	],
+	"Nijmegen": [ {
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Winter"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Spring"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Summer"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Autumn"
+		}
+	],
+	"Maastricht": [ {
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Winter"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Spring"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Summer"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Autumn"
+		}
+	],
+	"Zwolle": [ {
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Winter"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Spring"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Summer"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Autumn"
+		}
+	],
+	"Breda": [ {
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Winter"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Spring"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Summer"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Autumn"
+		}
+	],
+	"Enschede": [ {
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Winter"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Spring"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Summer"
+		},
+		{
+			"temp": 10.0,
+			"feel_temp": 10.0,
+			"wind_speed": 16,
+			"wind_direction": "NW",
+			"wind_degree": 338,
+			"humidity": 0,
+			"season": "Autumn"
+		}
+	]
+}
